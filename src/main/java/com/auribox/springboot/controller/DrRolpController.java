@@ -6,14 +6,14 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.auribox.springboot.dao.PersonaRepositoy;
+import com.auribox.springboot.dao.PersonaRepository;
 import com.auribox.springboot.model.Persona;
 
 @Controller
 public class DrRolpController {
 	
 	@Autowired
-	PersonaRepositoy personaRepository;
+	PersonaRepository personaRepository;
 
 	@RequestMapping
 	public String index(){
