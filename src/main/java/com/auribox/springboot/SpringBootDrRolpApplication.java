@@ -18,6 +18,10 @@ public class SpringBootDrRolpApplication implements CommandLineRunner {
         SpringApplication.run(SpringBootDrRolpApplication.class, args);
     }
 
+	/*
+	* implementando CommandLineRunner podemos agregar contenido al método run
+	* en nuestro caso lo usamos para persistir algunos obtetos al arrancar el programa
+	*/
 	@Override
 	public void run(String... arg0) throws Exception {
 
