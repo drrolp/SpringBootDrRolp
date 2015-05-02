@@ -17,6 +17,14 @@ Proyecto que ejemplifica el uso de SpringBoot usando las siguientes tecnologías
     * Bootstrap
     * jQuery
 
+### Ejecutar el proyecto
+Situados en la raiz del proyecto
+
+```sh
+$ mvn clean package
+$ java -jar target/SpringBoot_DrRolp-0.0.1-SNAPSHOT.jar
+```
+
 ### Contribuidores
 * creado por: [DrRolp](https://github.com/drrolp)
 * modificado por: [ethien-salinas](https://github.com/ethien-salinas)
